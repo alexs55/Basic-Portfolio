@@ -19,7 +19,7 @@ header {
     width: 300px;
     font-size: 36px;
     padding: 15px;
-    margin: 0px 225px;
+    margin: 0px 275px;
     text-align: center;
     font-weight: bold;
     color: #ffffff;
@@ -48,8 +48,8 @@ body {
 
 .mainbox {
 
-    margin-left: 225px;
-    margin-right: 225px;
+    margin-left: 275px;
+    margin-right: 275px;
     background-color: #ffffff;
     height: 860px;
     overflow: auto;
