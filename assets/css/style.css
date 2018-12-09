@@ -8,6 +8,7 @@ header {
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
     height: 100px;
+    overflow: auto;
     
    
     
@@ -29,17 +30,35 @@ header {
 
 .infotop {
     font-size: 16px;
-    float: right;
-    width: 60%;
     color: #cccccc;
     font-weight: bold;
-    margin: 20px 0px;
-    
+    float: right;
+    margin: -84px 265px auto;
 }
 
-.infotop:hover {
+/* changing the behavior of links */
+a:link {
+    color: #cccccc;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:visited {
+    color: #cccccc;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:hover {
     color: #4aaaa5;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+a:active {
+    color: aquamarine;
+    background-color: transparent;
+    text-decoration: underline;
 }
+
+
 
 body {
     background-image:url(https://github.com/alexs55/Basic-Portfolio/blob/master/assets/images/img7.jpg?raw=true); 
@@ -53,7 +72,31 @@ body {
     background-color: #ffffff;
     height: 860px;
     overflow: auto;
+
     
+}
+
+.text1 {
+
+    background-color: #ffffff;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px 20px auto;
+
+}
+
+.text1:hover {
+    background-color: #ffffff;
+}
+
+img {
+  
+    height: 225px;
+    width: 225px;
+    float: left;
+    margin: 10px 20px auto;
 }
 
 h1 {
